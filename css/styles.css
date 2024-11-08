@@ -1,0 +1,156 @@
+
+html, body {
+    height: 100%; 
+    margin: 0; 
+    font-family: 'Arial', sans-serif; 
+    background-color: #f4f4f4; 
+    color: #333; 
+    display: flex; 
+    flex-direction: column; 
+}
+
+header {
+    background: #2C3E50; 
+    color: #ffffff; 
+    padding: 20px 0;
+}
+
+.header-container {
+    display: flex;
+    justify-content: space-between; 
+    align-items: center; 
+    max-width: 80%; 
+    margin: 0 auto; 
+    padding: 0 20px; 
+}
+
+#role {
+    font-size: 0.6em;
+    color: #BDC3C7; 
+    margin-left: 5px; 
+}
+
+.menu ul {
+    list-style: none;
+    padding: 0; 
+    margin: 0; 
+    display: flex; 
+}
+
+.menu li {
+    margin-left: 20px;
+}
+
+.menu a {
+    color: #ffffff; 
+    text-decoration: none; 
+    font-size: 1em; 
+}
+
+.menu a:hover {
+    text-decoration: underline; 
+}
+
+main {
+    display: flex; 
+    justify-content: center; 
+    align-items: center; 
+    flex: 1; 
+    margin: 20px 0; 
+}
+
+
+.profile-container {
+    display: flex; 
+    align-items: center; 
+    justify-content: center; 
+    margin: 20px auto; 
+    max-width: 800px; 
+}
+
+.avatar {
+    width: 300px; 
+    height: 300px; 
+    border-radius: 50%;
+    object-fit: cover; 
+    object-position: 50% 80%; 
+    margin-right: 20px; 
+}
+
+.profile-text {
+    display: flex;
+    flex-direction: column; 
+}
+
+.subtitle {
+    margin-top: 5px; 
+    color: #666666; 
+    font-size: 1.1em; 
+}
+
+
+.links-container {
+    display: flex; 
+    justify-content: center; 
+    margin-top: 20px; 
+}
+
+.circle {
+    display: flex; 
+    justify-content: center; 
+    align-items: center; 
+    width: 100px;
+    height: 100px; 
+    border-radius: 50%; 
+    background-color: #2980B9; 
+    color: #ffffff; 
+    text-decoration: none; 
+    margin: 0 10px; 
+    font-size: 1em;
+    transition: background-color 0.3s; 
+}
+
+.circle:nth-child(1) {
+    background-color: #3498DB; 
+}
+
+.circle:nth-child(2) {
+    background-color: #1ABC9C;
+}
+
+.circle:nth-child(3) {
+    background-color: #F39C12; 
+}
+
+.circle:hover {
+    opacity: 0.8; 
+}
+
+footer {
+    text-align: center;
+    padding: 20px 0; 
+    background: #35424a; 
+    color: #ffffff; 
+    position: relative;
+    bottom: 0;
+    width: 100%;
+}
+
+.footer-container {
+    max-width: 80%; 
+    margin: 0 auto; 
+}
+
+.social-links {
+    margin-top: 10px; 
+}
+
+.social-links a {
+    color: #ffffff; 
+    text-decoration: none; 
+    margin: 0 10px; 
+}
+
+.social-links a:hover {
+    text-decoration: underline; 
+}
